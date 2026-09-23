@@ -7,8 +7,8 @@ export default function Home() {
   const [tab, setTab] = useState("chat");
   const [input, setInput] = useState("");
   const [messages, setMessages] = useState([]);
-  const [docs, setDocs] = useState<Doc[]>([]);
-  const [tasks, setTasks] = useState<Task[]>([]);
+  const [docs, setDocs] = useState([]);
+  const [tasks, setTasks] = useState([]);
   const [busy, setBusy] = useState(false);
 
   useEffect(() => {
